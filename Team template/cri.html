@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box;
+       }
+       body{ background-color: rgb(175, 157, 157);}
+        #temp{
+            height: 700px;
+            width: 600px;
+            border: 6px solid white;
+            background-image: linear-gradient(to bottom left, blue,navy,royalblue);
+            margin: 0 auto;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+        }
+        #players{
+            height: 400px;
+            width: 600px;
+            display: flex;
+            flex-flow: row wrap;
+            align-content: space-between;
+            align-items: center;
+            
+        }
+        .India{
+            height: 100px;
+            width: 100px;
+            margin-left: 15px;
+            display: flex;
+            flex-flow: row wrap;
+            text-align: center; 
+        }
+        div>img{
+            height: 50px;
+            width: 50px;
+            margin: 5px 15px 0px 15px;
+            border-radius: 50%;
+            background-color: #fff;
+            text-align: center;
+        }
+       h5{
+        display: flex;
+         font-size: 14px;
+         text-align: center;
+        color: whitesmoke;
+        width: 50px;
+        margin-left: 10px;
+       } 
+       .name{font-size: 40px;
+               /* color: white; */
+               background-image: url(./IND\ Flag.jpg);
+               text-align: center;
+            /* margin-left: 20px; */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        #C{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color:white;
+        color: black;
+        text-align: center;
+        /* margin: 0 auto; */
+       }
+      #m{
+        width: 100px;
+        /* text-align: center; */
+         margin-left: 80px;}
+    </style>
+</head>
+<body>
+    <div id="temp">
+        <section id="cap">
+            <table id="table1">
+                <tr>
+                    <td class="name" rowspan="2" id="name1"><b>INDIA CRICKET</b></td>
+                    <td><img src="./Mithali-Raj-2122.png" id="M" alt="" height="250px" width="200px">
+                  </td>
+                    <td class="name" rowspan="2"><b>WOMEN TEAM</b></td>
+                </tr>
+               
+                <tr>
+                    <!-- <td></td> -->
+                    <td><h5 id="m"><b>Mitali Raj</b><b id="C">C</b></h5></td>
+                <!-- <td></td> -->
+            </tr>
+            </table>
+        </section>
+
+        <div id="players">
+            <table>
+           <tr><td> <div class="India" id="players1">
+            <img src="./Jhulan Goswami.webp" alt="">
+            <H5><b>Jhulan Goswami</b></H5>
+          </div></td>
+            <td><div class="India" id="players2"><img src="./smriti manadana.png" alt="">
+            <h5><b>smriti manadana</b></h5></div></h5>
+          </div></td>
+           <td> <div class="India" id="players3"><img src="./Deepti sharma.webp" alt="">
+                <h5><b>Deepti Sharma</b></h5></div></td>
+           
+          <td> <div class="India" id="players4"><img src="./tania bhatia.webp" alt="">
+                <h5><b>Tania Bhatia</b></h5></div></td> 
+           <td> <div class="India" id="players5"><img src="./dayalan hemalatha.png" alt="">
+                 <h5><b>dayalan hemalatha</b></h5></div></td>
+                </tr>
+           <tr> <td><div class="India" id="players6"><img src="./Ekta Bisht.webp" alt="">
+                <h5><b>Ekta Bisht</b></h5></div></td>
+           <td> <div class="India" id="players7"><img src="./Harmanpreet kaur.webp" alt="">
+                <h5><b>Harmanpreet Kaur</b></h5></div></td>
+            <td><div class="India" id="players8"><img src="./jemimah rodrigues.webp" alt="">
+                <h5><b>Jemimah Rodrigues</b></h5></div></td>
+           <td> <div class="India" id="players9"><img src="./Mansi Joshi.webp" alt="">
+                <h5><b>Mansi Joshi</b></h5></div></td>
+           <td> <div class="India" id="players10"><img src="./punam raut.webp" alt="">
+                <h5><b>Punam Raut</b></h5></div></td>
+            </tr>
+            <tr>
+            <td><div class="India" id="players11"><img src="./punam yadav.webp" alt="">
+                <h5><b>Punam Yadav</b></h5></div></td>
+            <td><div class="India" id="players12"><img src="./radha yadav.png" alt="">
+                <h5><b>Radha Yadav</b></h5></div></td>
+            <td><div class="India" id="players13"><img src="./rajeshwari gayakwad.webp" alt="">
+                <h5><b>Rajeshwari Gayakwad</b></h5></div></td>
+           <td> <div class="India" id="players14"><img src="./sefali verma.png" alt="">
+                <h5><b>Sefali Verma</b></h5></div></td>
+            <td><div class="India" id="players15"><img src="./anuja-patil.jpg" alt="">
+                <h5><b>Anuja Patil</b></h5></div></td>
+            </tr>
+                </table>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
